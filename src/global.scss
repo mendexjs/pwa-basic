@@ -1,0 +1,107 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+
+// Classes globais de estilo
+
+// fontes
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+.font-regular{
+    font-weight: 500;
+}
+.font-light{
+    font-weight: 300;
+}
+
+//margins
+    // porcentagem
+    // para margin 0 usar .ion-no-margin
+    .mg-top-5-percent{
+        margin-top: 5%;
+    }
+    .mg-top-10-percent{
+        margin-top: 10%;
+    }
+    .mg-top-15-percent{
+        margin-top: 15%;
+    }
+    .mg-top-20-percent{
+        margin-top: 20%;
+    }
+    // pixels
+    .mg-top-5px{
+        margin-top: 5px;
+    }
+    .mg-top-10px{
+        margin-top: 10px;
+    }
+    .mg-top-15px{
+        margin-top: 15px;
+    }
+    .mg-top-20px{
+        margin-top: 20px;
+    }
+    .mg-top-25px{
+        margin-top: 25px;
+    }
+    .mg-top-30px{
+        margin-top: 30px;
+    }
+    .mg-top-35px{
+        margin-top: 35px;
+    }
+
+.left-menu-modal{
+    --width: 70%;
+    margin-left: -18%;
+    --border-radius: 0 5px 5px 0;
+}
+
+.right-menu-modal{
+    --width: 70%;
+    margin-right: -18%;
+    --border-radius: 5px 0 0 5px;
+}
+.vertical-modal{
+    --height: 90%;
+    margin-bottom: -10%;
+    --border-radius: 5px 5px 0 0;
+}
