@@ -2,7 +2,7 @@
 
 Basic Ionic 6 + Angular 9 setup to pwa with angular material and serviceworker configs.
 
-create a fork and install dependencies running "yarn" or "npm i --save --save-dev"
+create a new repository from this template repo and install dependencies running "yarn" or "npm i --save --save-dev"
 
 To deploy, you can use firebase hosting, install "sudo npm i -g firebase" and then run "firebase init hosting" at your project's repository.
 
